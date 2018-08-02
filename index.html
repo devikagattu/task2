@@ -25,3 +25,23 @@ var vid=document.getElementById('video');
 }
 
 </script>
+<audio src="song.mp3" autoplay controls id="audio">
+
+</audio>
+<br>
+<button type="button" name="button" onclick="play()">play</button>
+  <button type="button" name="button" onclick="pause()">pause</button>
+
+</body>
+</html>
+<script type="text/javascript">
+function play(){
+var audio=document.getElementById('audio');
+audio.play();
+}
+function pause(){
+var audio=document.getElementById('audio');
+audio.pause();
+}
+
+</script>
